@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2 {
-    font-family: Roboto;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: navy;
@@ -23,4 +23,33 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 270%;
+}
+
+#navbar {
+    font-size: 120%;
+    letter-spacing: 4px;
+
+}
+
+#navbar, #logo {
+    line-height: 60px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: navy;
+}
+
+#navbar a:hover {
+    border-bottom: 1.5px solid navy;
+}
+
+.active {
+    border-bottom: 1px solid black;
 }
