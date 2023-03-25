@@ -12,3 +12,15 @@ body {
     font-weight: 300;
     color:brown
 }
+
+h1, h2 {
+    font-family: Roboto;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: navy;
+}
+
+#logo {
+    float: left;
+    font-size: 270%;
+}
