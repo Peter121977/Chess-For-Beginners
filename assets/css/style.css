@@ -69,3 +69,22 @@ h1, h2 {
     background-size: cover;
 }
 
+#join {
+    text-align: center;
+    color: brown;
+    margin: 40px 0;
+    font-size: 250%;
+}
+
+#welcome {
+    text-align: center;
+    color: black;
+    margin: 40px 0;
+}
+
+p {
+    color: black;
+    margin-left: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
