@@ -53,3 +53,14 @@ h1, h2 {
 .active {
     border-bottom: 1px solid black;
 }
+
+#chess-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+#chess-images {
+    height: 500px;
+    width: 100%;
+    background: url('../images/chess.jpg') no-repeat center center;
+}
