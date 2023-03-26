@@ -88,3 +88,13 @@ p {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+ #times h2 {
+    text-align: center;
+    color: green;
+}
+
+#times h3 {
+    text-align: center;
+    color: black;
+}
+
