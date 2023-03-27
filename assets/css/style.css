@@ -113,6 +113,11 @@ p {
 
 }
 
+#register:hover {
+    background-color: aquamarine;
+    color: #222222;
+}
+
 footer {
     height: 170px;
 }
