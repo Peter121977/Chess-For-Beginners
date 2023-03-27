@@ -112,3 +112,24 @@ p {
 
 }
 
+footer {
+    height: 170px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+    
+}
+
+.social-networks i {
+    font-size: 50px;
+    margin: 3%;
+    padding: 5%;
+    color: rgb(0, 8, 255);
+
+}
+
