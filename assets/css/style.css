@@ -109,6 +109,9 @@ p {
     font-size: larger;
     border-radius: 10px;
     color: blueviolet;
+    transition: background-color 1000ms;
+    color: 1000ms;
+    cursor: pointer;
     border: 1px solid
 
 }
@@ -116,6 +119,8 @@ p {
 #register:hover {
     background-color: aquamarine;
     color: #222222;
+    transition: background-color 1000ms;
+    cursor: pointer;
 }
 
 footer {
