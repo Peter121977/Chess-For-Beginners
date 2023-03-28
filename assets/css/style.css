@@ -145,6 +145,7 @@ footer {
 }
 
 .frame {
-    padding-left: 640px;
+    margin: 0 auto;
+    display: block;
 }
 
