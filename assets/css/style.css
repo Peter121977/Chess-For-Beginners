@@ -1,3 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+/* general style */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color:brown
+}
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: navy;
+}
+p {
+    color: black;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.left {
+    float: left;
+    width: 15%;
+    border-radius: 5%;
+    padding: 0 10px;
+}
+
+/* logo and navbar */
+#logo {
+    float: left;
+    font-size: 270%;
+    margin-left: 40px;
+}
+
+#navbar, #logo {
+    line-height: 60px;
+}
+
+#navbar {
+    font-size: 120%;
+    letter-spacing: 4px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: navy;
+}
+
+#navbar a:hover {
+    border-bottom: 1.5px solid navy;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+/* end */
+
+
+/* index image section */
+#chess-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#chess-images {
+    height: 500px;
+    width: 100%;
+    background: url('../images/chess.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* index descriptino section */
+#join {
+    text-align: center;
+    color: brown;
+    margin: 40px 0;
+    font-size: 250%;
+}
+
+#welcome {
+    text-align: center;
+    color: red;
+    margin: 40px 0;
+}
+
+/* index opening hours and registry button section */
+ #times h2 {
+    text-align: center;
+    color: green;
+}
+
+#times {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#times h3 {
+    text-align: center;
+    color: black;
+}
+
+#register {
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px auto;
+    background-color: aqua;
+    display: block;
+    font-size: larger;
+    border-radius: 10px;
+    color: blueviolet;
+    transition: background-color 1000ms;
+    cursor: pointer;
+    border: 1px solid
+}
+
+#register:hover {
+    background-color: aquamarine;
+    color: #222222;
+    transition: background-color 1000ms;
+    cursor: pointer;
+}
+
+/* index iframe section */
+.frame {
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+/* index end */
+
+ /* Photos/Gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-gap: 0;
+    column-count: 3;
+}
+
+#photos > img {
+    width: 100%;
+    background-size: cover;
+}
+ /* end */
+
+/* Contact/Sing Up */
+#kids > img {
+    width: 80%;
+    margin:10px auto 20px auto;
+    display: block;
+}
+
+#style {
+    position: relative;
+    width: 20rem;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: inherit;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+/* end */
+
+/* footer section with social media for all pages */
+footer {
+    height: 170px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+    
+}
+
+.social-networks i {
+    font-size: 50px;
+    margin: 3%;
+    padding: 5%;
+    color: rgb(0, 8, 255);
+
+}
+/* footer end */
+
+/* style for media */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #navbar {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 25px;
+        line-height: 25px;
+    }
+}
 
 
 
